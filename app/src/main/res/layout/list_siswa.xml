@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/NamaSiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Siswa"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/NisSiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Siswa"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/JkSiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/KelasSiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        android:textSize="15sp" />
+
+</LinearLayout>
